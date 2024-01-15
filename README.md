@@ -1,11 +1,15 @@
 # faer
 
-`faer` is a collection of crates that implement low level linear algebra routines in pure Rust.
-The aim is to eventually provide a fully featured library for linear algebra with focus on portability, correctness, and performance.
+`faer` is a collection of crates that implement low level linear algebra
+routines in pure Rust.  The aim is to eventually provide a fully featured
+library for linear algebra with focus on portability, correctness, and
+performance.
 
-See the [official website](https://faer-rs.github.io) and the `docs.rs` documentation for code examples and usage instructions.
+See the [official website](https://faer-rs.github.io) and the `docs.rs`
+documentation for code examples and usage instructions.
 
-Questions about using the library, contributing, and future directions can be discussed in the [Discord server](https://discord.gg/Ak5jDsAFVZ).
+Questions about using the library, contributing, and future directions can be
+discussed in the [Discord server](https://discord.gg/Ak5jDsAFVZ).
 
 
 ## faer
@@ -23,7 +27,8 @@ For developers who want to know more about the data layout and underlying struct
 [![Documentation](https://docs.rs/faer-core/badge.svg)](https://docs.rs/faer-core)
 [![Crate](https://img.shields.io/crates/v/faer-core.svg)](https://crates.io/crates/faer-core)
 
-The core module implements matrix structures, as well as BLAS-like matrix operations such as matrix multiplication and solving triangular linear systems.
+The core module implements matrix structures, as well as BLAS-like matrix
+operations such as matrix multiplication and solving triangular linear systems.
 
 ## faer-sparse
 

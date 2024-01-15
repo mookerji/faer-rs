@@ -6,7 +6,6 @@ fn main() {
         [-0.90628668, 4.00729077, 2.17332502],
         [-1.71493024, 2.17332502, 1.97196187]
     ];
-
     let lu = matrix.partial_piv_lu();
 
     let rhs = mat![
@@ -17,7 +16,6 @@ fn main() {
 
     let sol = lu.solve(&rhs);
     let inv = lu.inverse();
-
     assert_matrix_eq!(rhs, &matrix * &sol, comp = abs, tol = 1e-10);
     assert_matrix_eq!(Mat::identity(3, 3), &matrix * &inv, comp = abs, tol = 1e-10);
 }
